@@ -1,0 +1,928 @@
+@import url(menu.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:  #A5D7E8;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(100, 165, 230);
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+header .barra{
+    display: table;
+}
+.barra{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.barra img{
+    height: 100px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.saludo{
+    display: flex;
+    margin: auto;
+    padding: 140px 0 0 0;
+    text-align: center;
+    align-items: center;
+}
+
+.bienvenido{
+    padding: 10px 0 0 0;
+    width: 90%;
+    height: 500px;
+    background-color:#F7F5EB;
+    margin:auto;
+    display: flexbox;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    columns: 2;
+}
+
+.bienvenido img{
+    filter: drop-shadow(10px 10px 10px rgb(0, 0, 0, 0.5));
+    align-items: flex-end;
+    align-items: start;
+    display: flex;
+    height: 100%;
+}
+
+.bienvenido h1{
+    height: 150px;
+    font-size: 30px;
+}
+
+.bienvenido h3{
+    font-size: 60px;
+}
+
+
+.articulos{
+    width: 100%;
+    height: auto;
+    display: flexbox;
+    margin: 20px;
+    text-align:center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 0 0 120px 0;
+}
+
+
+.pedidos{
+    display: flexbox;
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.citas{
+    display: flex;
+    height: 250px;
+    padding: 10px;
+}
+
+
+.pr{
+    background-color: #F7F5EB;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+    text-align:center;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.ci{
+    background-color: #F7F5EB;
+    width: 300px;
+    height: 200pxpx;
+    display: inline-block;
+    margin: 20px;
+    text-align:center;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.pr img{
+    height: 190px;
+}
+
+.ci img{
+    height: 180px;
+}
+
+footer{
+    position: relative;;
+    margin-top: 10px;
+    padding: 20px;
+    height: 150px;
+    background-color: rgb(100, 165, 230);
+}
+
+.whatsApp {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*estilos de conocenos*/
+
+.promocional{
+    position: relative;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    background-color: black;
+}
+
+.promocional h1{
+    color: #fff;
+}
+
+.co{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.co img{
+    height: auto;
+    margin: 50px;
+}
+
+.imagen1{
+    height: auto;
+}
+
+.imagen1 img{
+    height: 250px;
+}
+
+.imagen2{
+    height: auto;
+}
+
+.imagen2 img{
+    height: 400px;
+}
+
+.contenedor{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+}
+
+.contenedor img{
+    height: 400px;
+}
+
+
+/*Estilos de contactanos*/
+#contactanos{
+    width: 100%;
+    padding: 130px 0 10px 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.ficha_informacion{
+    text-align: center;
+}
+
+.ficha_informacion ul li{
+    list-style: none;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 500px;
+    padding: 0 0 0 10px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.info_ubicacion{
+    justify-content: center;
+    text-align: center;
+}
+
+.info_ubicacion h3{
+    margin: 20px;
+}
+
+.mapa{
+    display: flex;
+    width: 50%;
+    padding: 0 10px 0 0;
+    align-items: center;
+}
+
+.mapa iframe{
+    width: 800px;
+}
+
+
+/*Estilos de la seccion pedidos*/
+
+.formulario{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+    margin-left: 10px;
+	padding: 115px 0 0 0;
+	justify-content: center;
+	position: relative;
+    box-sizing: border-box;
+}
+
+.formulario form{
+	padding: 50px 30px 10px 30px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	border-radius: 20px;
+	text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+	width: 900px;
+    height: 800px;
+    flex-direction: column;
+	background-color:  rgb(100, 165, 230);
+}
+
+.formulario_producto{
+    min-height: 100vh;
+	display: flex;
+	align-items: center;
+    margin-left: 10px;
+	padding: 115px 0 0 0;
+	justify-content: center;
+	position: relative;
+    box-sizing: border-box;
+}
+
+.formulario_producto form{
+	padding: 50px 30px 10px 30px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	border-radius: 20px;
+	text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+	width: 600px;
+    height: 350px;
+    flex-direction: column;
+	background-color:  rgb(100, 165, 230);
+}
+
+
+form h3{
+	color: black;
+    margin-bottom: 10px;
+}
+.grupo_inputs{
+    display: grid;
+    position: absolute;
+    padding: 0 0 300px 0;
+    grid-template-columns: repeat(3,0.1fr);
+    grid-gap:40px;
+}
+
+.contenedor-inputs{
+	display: flex;
+    position: initial;
+    margin: auto;
+	flex-direction: column;
+    align-items:center;
+}
+
+.contenedorMasInputs{
+	display: grid;
+    grid-template-columns: repeat(4 , 2fr);
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+.contenedorMasInputs input{
+    margin: 0px;
+}
+
+input, textarea{
+	background-color: rgb(247, 247, 255);
+	padding: 15px 10px;
+	border: 0;
+	margin: 5px;
+    outline: none;
+	border-radius: 10px;
+	font-size: 15px;
+    color: black;
+}
+
+input{
+    display: flex;
+}
+
+.grupo_2{
+    padding: 150px 0 0 0;
+    align-items: center;
+}
+
+textarea{
+    width: 500px;
+    position: relative;
+    margin-top: 200px 50px 0 50px;
+    padding: 0 0 0 100px;
+}
+
+.btn-submit{
+    align-self: center;
+}
+
+/*ventana de whatsapp*/
+
+.ventana{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	text-align: right;
+}
+
+.redes{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-end;
+}
+
+.redes a{
+    text-decoration: none;
+    background: #0df053;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0,.4);
+}
+
+.redes a:hover{
+    color: #0df053;
+    background: #fff;
+}
+
+.redes a.icon-whatsapp{
+	margin-top: auto;
+}
+
+@media(min-width:1024px){
+	.formulario{
+		align-items: center;
+	}
+}
+
+/*Seccion de tienda*/
+
+.catalogo{
+    display: flexbox;
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.articulos_t{
+    display: flexbox;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.ropa{
+    background-color: #F7F5EB;
+    width: 40%;
+    height: auto;
+    display:inline-block;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.ropa img{
+    height: 180px;
+}
+
+/*Catalogo 1 vestidos de novia*/
+
+
+.catalogo1{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.v_novia{
+    width: 100%;
+    height: 250px;
+    display:flexbox;
+}
+
+.v_n{
+    width: 500px;
+    height: 280px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.v_n img{
+    height: 180px;    
+}
+
+/*Catalogo 2 ropa para hombre*/
+.catalogo2{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.r_hombre{
+    width: 100%;
+    height: 300px;
+    display:flexbox;
+}
+
+.r_h{
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.r_h img{
+    height: 210px;
+}
+
+/*Catalogo 3 ropa para mujer*/
+.catalogo3{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.r_mujer{
+    width: 100%;
+    height: 300px;
+    display:flex;
+}
+
+.r_m{
+    display: flex;
+    width: 450px;
+    height: 260px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    align-items: center;
+    padding: 10px;
+}
+
+.referencia {
+    text-decoration: none;
+    color: #000000;
+    background: rgb(100, 165, 230);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.r_m img{
+    height: 210px;
+    border-style: none;
+}
+
+/*Catalogo 4 trajes*/
+
+.catalogo4{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.trajes{
+    width: 100%;
+    height: 300px;
+    display:flexbox;
+}
+
+.tr{
+    width: 380px;
+    height: 270px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.tr img{
+    height: 210px;
+}
+
+.tr2{
+    width: 450px;
+    height: 270px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.tr2 img{
+    height: 210px;
+}
+
+
+/*Catalogo 5 vestidos*/
+
+.catalogo5{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.vestidos_{
+    width: 100%;
+    height: 300px;
+    display:flexbox;
+}
+
+.ve{
+    width: 400px;
+    height: 270px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.ve img{
+    height: 210px;
+}
+
+/*Catalogo 6 vestidos para 15 años*/
+
+.catalogo6{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.vestidos15{
+    width: 100%;
+    display:flexbox;
+}
+
+.v_15{
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.v_15 img{
+    height: 210px;
+}
+
+
+.card_login{
+    justify-content: center;
+    padding: 100px;
+}
+
+.card_login form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tabla_citas{
+    width: 98%;
+    padding: 120px 0 0 0;
+    background-color: aliceblue;
+    color: black;
+}
+
+.tabla_prendas{
+    background-color: aliceblue;
+    width: 98%;
+    padding: 20px;
+}
+
+
+.tabla_usuarios{
+    width: 98%;
+    display: flexbox;
+    height: auto;
+    margin: auto;
+    padding: 120px 0 0 0;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.tabla_usuarios a{
+    text-decoration: none;
+    background-color: #04a6f7;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.card_login_cliente{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 200px 0 0 0;
+    background-image: linear-gradient(#FFECDA,#A6D0E4);
+}
+
+.card_login_cliente form{
+    margin: auto;
+    align-items: center;
+    padding: 150px 0 0 0;
+}
+
+.inputs_crear{
+    display: grid;
+    position: absolute;
+    padding: 150px 0 300px 0;
+    grid-template-columns: repeat(3,0.1fr);
+    grid-gap:40px;
+}
+
+.formulario_creacion{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 115px 0 0 0;
+	justify-content: center;
+	position: relative;
+    box-sizing: border-box;
+}
+
+.formulario_creacion form{
+    padding: 50px 30px 10px 30px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	border-radius: 20px;
+	text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+	width: 900px;
+    height: 800px;
+    flex-direction: column;
+	background-color:  rgb(100, 165, 230);
+}
+
+.formulario_creacion a{
+    text-decoration: none;
+}
+
+.mostrar_usuario{
+    margin-top: 100px;
+    color: #000000;
+}
+
+
+.categorias1{
+    width: 100%;
+    height: auto;
+    display: flexbox;
+    margin: 20px;
+    text-align:center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 0 0 120px 0;
+}
+
+.contenedor_categorias{
+    display: flexbox;
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.ca{
+    background-color: #F7F5EB;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+    text-align:center;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.ca img{
+    height: 190px;
+}
+
+.r_mujer a h4{
+    text-decoration: none;
+}
+
+.contenedor_producto form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #A5D7E8;
+    box-shadow: 9px 9px 16px #6383ad, -9px -9px 16px #a5b7cf;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.contenedor_producto button{
+    display: flex;
+    background: #A5D7E8;
+    box-shadow: 9px 9px 16px #6383ad, -9px -9px 16px #a5b7cf;
+    border-style: none;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contenedor_producto a{
+    text-decoration: none;
+}
+
+
+.carrito{
+    background: #fff;
+    border-radius: 80px;
+    margin: auto;
+    align-items: center;
+}
+
+.tabla_carrito{
+    margin-top: 300px;
+    margin: auto;
+    padding: 50px;
+    width: 90%;
+    height: auto;
+    background: white;
+}
+
+.contenedor_carrito {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos {
+    margin-top: 100px;
+    width: 70%;
+}
+
+.total-compra {
+    margin-top: 200px;
+    width: 30%;
+    height: auto;
+}
+
+.boton_comprar{
+    background: #6383ad;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-style: none;
+}
+
+.resgistrart{
+    box-sizing: border-box;
+}
+
+.formulario_De_Registro {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.formularioRegistro {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularioRegistro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formularioRegistro label {
+    margin-bottom: 5px;
+}
+
+.formularioRegistro input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formularioRegistro input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formularioRegistro input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll_contenedor {
+    display: inline-block;
+}
+
+.eliminarTodo{
+    margin: auto;
+}

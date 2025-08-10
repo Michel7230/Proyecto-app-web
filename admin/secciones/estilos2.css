@@ -1,0 +1,151 @@
+
+
+.contenedor_pedidos{
+    display:flexbox;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgb(120, 144, 156);
+}
+
+
+.card_pedido{
+    display: flex;
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #ffff;
+}
+
+
+.tabla_citas{
+    width: 98%;
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.agregar_pedidos{
+    width: 95%;
+    padding: 300px 0 0 0;
+    margin: auto;
+}
+
+.crear_categoria{
+    display: flex;
+    width: 90%;
+    height: auto;
+    position: relative;
+    align-items: center;
+}
+
+.crear_prendas{
+    display: flex;
+    width: 90%;
+    height: auto;
+    align-items: center;
+}
+
+.agregar_categoria{
+    padding: 150px 0 0 0;
+    margin: auto;
+    height: auto;
+    align-items: center;
+    background-color: rgb(101, 208, 208);
+    text-align: center;
+}
+
+.agregar_categoria form{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.a_categoria{
+    width: 80%;
+    display: flex;
+    position: initial;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a_categoria textarea{
+    height: 100px;
+}
+
+
+.agregar_prenda {
+    background-color: rgb(101, 208, 208);
+    height: auto;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.agregar_prenda form{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.crear_usuarios{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,0.1fr);
+}
+
+.tabla_empleados,.tabla_clientes{
+    width: 98%;
+    display: flex;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.tabla_empleados th,td{
+    padding: 8px;
+}
+
+.tabla_datos{
+    padding: 120px;
+    color: black;
+    background-color: rgb(197, 224, 220);
+    margin: auto;
+    text-align: center;
+}
+
+.contenedor_ventas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.venta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgb(101, 208, 208);
+    border-radius: 20px;
+}
