@@ -9,7 +9,7 @@ $resultados_categorias = mysqli_query($conexion,$categorias);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONFECCIONES ESTELA</title>
+    <title>SASTRERIA</title>
     <link rel="stylesheet" href="ESTILOS/estilo.css?234">
     <link rel="stylesheet" href="ICONOS/css/fontello.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@ $resultados_categorias = mysqli_query($conexion,$categorias);
             <img src="IMAGENES/persona.png" alt="">
             <h1>Bienvenido a </h1>
             <h3>
-                CONFECCIONES ESTELA
+                Sastreria
             </h3>
         </section>
         

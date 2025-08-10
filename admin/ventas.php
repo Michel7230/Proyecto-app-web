@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ventas</title>
     <link rel="stylesheet" href="../ESTILOS/estilo.css">
   <link rel="stylesheet" href="secciones/estilos2.css?2">
   <link rel="stylesheet" href="../ICONOS/css/fontello.css">

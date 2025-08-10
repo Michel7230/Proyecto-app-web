@@ -2,8 +2,8 @@
 include("../../conexion2.php");
 use \Mailjet\Resources;
 
-$APIkey = 'b1e812d4c17cc082ffd4ffec932242fc';
-$claveSecreta = 'f8023c5dd7508273a8aefdfdc5cedae6';
+$APIkey = 'AQUI VA LA API KEY DE MAILJET';
+$claveSecreta = 'AQUI VA LA CLAVE SECRETA DE MAILJET';
 
 require 'vendor/autoload.php';
 $mj = new \Mailjet\Client($APIkey,$claveSecreta,true,['version' => 'v3.1']);

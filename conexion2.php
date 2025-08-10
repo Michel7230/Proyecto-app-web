@@ -4,7 +4,7 @@ $host = "localhost";
 $bd_nombre = "sastreria";
 $user = "root";
 $password = "";
-$puerto = 3308;
+$puerto = "";
 
 $conexion = mysqli_connect($host, $user, $password, $bd_nombre, $puerto);
 

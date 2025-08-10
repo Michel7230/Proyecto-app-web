@@ -21,7 +21,7 @@ $prenda = mysqli_fetch_array($producto);
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600display=swap" rel="stylesheet">
-  <script src="https://www.paypal.com/sdk/js?client-id=AdLZNs6trcepGiH3MGVTuIeg4OSoUzqtmrOd66jvU4rIDRLlar9oKspjgyxpQaFs4evrS9SKUwXMbxNB&currency=MXN" data-sdk-integration-source="integrationbuilder_sc"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=AQUI VA EL CLIENT ID DE PAYPAL&currency=MXN" data-sdk-integration-source="integrationbuilder_sc"></script>
 </head>
 <body>
 
