@@ -1,7 +1,7 @@
-/admin/secciones/*/categorias/**
+*/admin/secciones/DIRECTORIO/categorias/**
 
-/admin/secciones/*/citas/**
+*/admin/secciones/DIRECTORIO/citas/**
 
-/admin/secciones/*/pedidos/**
+*/admin/secciones/DIRECTORIO/pedidos/**
 
-/admin/secciones/*/productos/**
+*/admin/secciones/DIRECTORIO/productos/**
